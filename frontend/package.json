@@ -1,0 +1,37 @@
+{
+  "name": "noleggio_semplice_new",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js",
+    "build": "next build",
+    "export": "npm run build && next export",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@gumgum/react-script-tag": "0.0.3",
+    "@zeit/next-css": "^1.0.1",
+    "axios": "^0.18.0",
+    "isomorphic-unfetch": "^3.0.0",
+    "mdbreact": "git+https://oauth2:m8yLsomLxg9RanfnavZS@git.mdbootstrap.com/mdb/react/re-pro.git",
+    "next": "^7.0.2",
+    "next-compose-plugins": "^2.1.1",
+    "next-fonts": "^0.17.0",
+    "next-images": "^1.1.0",
+    "next-routes": "^1.4.2",
+    "react": "^16.7.0",
+    "react-chartjs-2": "^2.7.6",
+    "react-dom": "^16.7.0",
+    "react-md": "^1.9.3",
+    "react-movable": "^2.0.1",
+    "react-router-dom": "^4.3.1",
+    "react-slick": "^0.23.2",
+    "reactjs-popup": "^1.3.2",
+    "slick-carousel": "^1.8.1"
+  }
+}
